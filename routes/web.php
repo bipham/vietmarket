@@ -12,5 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return view('welcome');
 });
+
+Route::get('HomePage', ['as'=>'Home', 'uses'=>'HomeController@showHome']);
+
+/*Route::get('/', function(){
+	return redirect()->route('Home');
+});*/
+
+Route::get('MyStore', ['as'=>'MyStore', 'uses'=>'HomeController@showMyStore']);
+
+Route::get('ListOrder', ['as'=>'OrderDetail', 'uses'=>'HomeController@showOrderDetail']);
