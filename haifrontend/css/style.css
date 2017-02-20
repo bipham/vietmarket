@@ -1,0 +1,87 @@
+/***********************
+  NAV ACCOUNT
+************************/
+.navbar-account {
+    background-color:#34495E;
+    color:#ffffff;
+	text-decoration: none;
+	border-radius:0;
+ }
+
+.navbar-account .navbar-nav > li > a > hover{
+    color:#ffffff;
+    background-color:transparent;
+}
+.navbar-account .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    
+    background-color:transparent;
+}
+.navbar-account .navbar-brand {
+    color:#eeeeee;
+}
+body {
+	background-color: #E4F1FE;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #52B3D9;
+  text-decoration: none;
+}
+/***********************
+  BTN ACCOUNT
+************************/
+.btn-account.raised {
+	box-shadow: 0 3px 0 0 #007299;
+}
+.btn-account.raised:active, .btn-account.raised.active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+.btn-account {
+	margin: 15px;
+    background: #0099cc;
+    color: #ffffff;
+}
+.btn-account:hover, .btn-account:focus, .btn-account:active, .btn-account.active, .open > .dropdown-toggle.btn-account {
+    background: #33a6cc;
+    color: #ffffff;
+}
+.btn-account:active, .btn-account.active {
+    background: #007299;
+    box-shadow: none;
+}
+/***********************
+  BTN LANGUAGE
+************************/
+.btn-lang {
+	margin: 15px;
+    color: #ffffff;
+    border-style: none;
+    background-color:#34495E;
+}
+.btn-lang:hover, .btn-lang:focus, .btn-lang:active, .btn-lang.active, .open > .dropdown-toggle.btn-lang {
+    color: #ffffff;
+    box-shadow: none;
+}
+/***********************
+  CAROUSEL ACCOUNT
+************************/
+.carousel-account > .item > img{
+	height: 400px;
+}
+.carousel-account .active {
+	height: 400px;
+}
+.carousel-indicators li { visibility: hidden; }
+/***********************
+  DROP MENU
+************************/
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-style: none;
+}
