@@ -2,13 +2,13 @@
   NAV ACCOUNT
 ************************/
 .navbar-account {
-    background-color:#34495E;
+    background-color:#2c373b;
     color:#ffffff;
 	text-decoration: none;
 	border-radius:0;
  }
 
-.navbar-account .navbar-nav > li > a > hover{
+.navbar-account .navbar-nav > li > a {
     color:#ffffff;
     background-color:transparent;
 }
@@ -17,17 +17,17 @@
     background-color:transparent;
 }
 .navbar-account .navbar-brand {
-    color:#eeeeee;
+    color:#ffffff;
 }
 body {
-	background-color: #E4F1FE;
+	background-color: #f5f5f5;
 }
 a {
-  color: #ffffff;
+  color: #b2b2b4;
   text-decoration: none;
 }
 a:hover {
-  color: #52B3D9;
+  color: #ffffff;
   text-decoration: none;
 }
 /***********************
@@ -60,12 +60,11 @@ a:hover {
 ************************/
 .btn-lang {
 	margin: 15px;
-    color: #ffffff;
     border-style: none;
-    background-color:#34495E;
+    background-color: transparent;
 }
 .btn-lang:hover, .btn-lang:focus, .btn-lang:active, .btn-lang.active, .open > .dropdown-toggle.btn-lang {
-    color: #ffffff;
+    
     box-shadow: none;
 }
 /***********************
@@ -85,3 +84,37 @@ a:hover {
     display: block;
     border-style: none;
 }
+/***********************
+  Avartar
+************************/
+.img-circle{
+  height: 100px;
+  width: 100px;
+    border:1px solid #000000;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+.well {
+  background: #ffffff;
+}
+/***********************
+  BTN PROFILE
+************************/
+.btn-pf {
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+    border-style: none;
+    background-color: #2c373b;
+}
+.btn-pf:hover, .btn-pf:focus, .btn-pf:active, .btn-pf.active, .open > .dropdown-toggle.btn-pf {
+    color: #ffffff;
+    box-shadow: none;
+    background-color: #535d5f;
+}
+/***********************
+  STAR PROFILE
+************************/
+#hearts { color: #ee8b2d;}
+#hearts-existing { color: #ee8b2d;}
