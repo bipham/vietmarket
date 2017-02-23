@@ -8,13 +8,14 @@ Version: 01
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>@yield('title', 'VietMarket') - VietMarketPlace</title>
+	<title>@yield('meta-title', 'VietMarket') - VietMarketPlace</title>
 	<link rel="stylesheet" href="{{asset('public/libs/bootstrap/css/bootstrap.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('public/libs/font-awesome/css/font-awesome.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('public/css/client/mystyle.css')}}"/>
+	
 </head>
 <body>
-	@include('layouts.header')
+	@include('auth.header')
 	<div role="main" ckass="main">
 		@yield('top-information')
 
@@ -24,7 +25,6 @@ Version: 01
 	</div>
 
 	@include('layouts.footer')
-
 	<script src="{{asset('public/libs/tether/tether.min.js')}}"></script>
 	<script src="{{asset('public/libs/jquery/jquery.min.js')}}"></script>
 	<script src="{{asset('public/libs/bootstrap/js/bootstrap.min.js')}}"></script>

@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 */
 
+Route::get('login', 'Auth\AuthController@getLogin');
+Route::post('login', 'Auth\AuthController@authLogin');
+
+
 Route::get('HomePage', ['as'=>'Home', 'uses'=>'HomeController@showHome']);
 
 Route::get('MyStore', ['as'=>'MyStore', 'uses'=>'HomeController@showMyStore']);
