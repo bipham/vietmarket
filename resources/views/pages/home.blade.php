@@ -1,3 +1,8 @@
+/************************
+Created by: Nguyen Le Duy
+Date: 17/02/2017
+************************/
+
 @extends('layouts.master')
 
 @section('content')
@@ -17,61 +22,15 @@
 					<li><a>Book</a></li>
 				</ul>
 			</div>
-			<div class="col-md-10"> 
-				<div class="table-responsive">
-				<table class="table table-hover">
-					<thead>
-					<tr class="info">
-						<th>Image</th>
-						<th>Item Name</th>
-						<th>Status</th>
-						<th>Place</th>
-						<th>Rate</th>
-						<th>Time left</th>
-						<th>Price(Dong)</th>
-					</tr>
-					</thead>
+			<div class="col-md-10">
 
-					<tbody>
-					<tr>
-						<th></th>
-						<th>E-Commerce</th>
-						<th>New</th>
-						<th>HCM City</th>
-						<th>5</th>
-						<th>3 days</th>
-						<th>100.000</th>
-					</tr>
-					<tr>
-						<th></th>
-						<th>E-Commerce</th>
-						<th>New</th>
-						<th>HCM City</th>
-						<th>5</th>
-						<th>3 days</th>
-						<th>100.000</th>
-					</tr>
-					<tr>
-						<th></th>
-						<th>E-Commerce</th>
-						<th>New</th>
-						<th>HCM City</th>
-						<th>5</th>
-						<th>3 days</th>
-						<th>100.000</th>
-					</tr>
-					<tr>
-						<th></th>
-						<th>E-Commerce</th>
-						<th>New</th>
-						<th>HCM City</th>
-						<th>5</th>
-						<th>3 days</th>
-						<th>100.000</th>
-					</tr>
-					</tbody>
-				</table>
-				</div>
+				<!--Updated by: Duy
+				Date: 23/02/2017
+				Chỉnh lại bảng chứa dữ liệu.
+				-->
+				@for($i = 0; $i < 10; $i++)
+				@include('utils.contentTable')
+				@endfors
 
 				<ul class="pagination">
 					<li><a href="#">1</a></li>

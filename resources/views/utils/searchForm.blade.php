@@ -1,3 +1,7 @@
+<!--Created by: Nguyen Le Duy
+Date: 17/02/2017
+-->
+
 <div class="container-fluid text-center search">
   <form class="form-inline">
 	<div class="form-group">

@@ -1,3 +1,7 @@
+<!--Created by: Nguyen Le Duy
+Date: 17/02/2017
+-->
+
 <!--Slide quang cao-->
 <div class="carousel slide" id="banner">
 	<ol class="carousel-indicators">

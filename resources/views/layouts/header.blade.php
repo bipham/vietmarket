@@ -1,3 +1,8 @@
+<!--
+Created by: Nguyen Le Duy
+Date: 17/02/2017
+-->
+
 <nav class="navbar navbar-fixed-top container-fluid">
   <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: white;">

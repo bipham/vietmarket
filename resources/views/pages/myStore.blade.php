@@ -1,3 +1,8 @@
+/************************
+Created by: Nguyen Le Duy
+Date: 17/02/2017
+************************/
+
 @extends('layouts.master')
 
 @section('content')
