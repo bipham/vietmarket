@@ -20,13 +20,14 @@ Version: 01
 		@yield('top-information')
 
 		@yield('content')
-
-		@yield('scripts')
 	</div>
 
 	@include('layouts.footer')
+
 	<script src="{{asset('public/libs/tether/tether.min.js')}}"></script>
 	<script src="{{asset('public/libs/jquery/jquery.min.js')}}"></script>
 	<script src="{{asset('public/libs/bootstrap/js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('public/libs/jquery-validation/jquery.validate.min.js')}}"></script>
+	@yield('scripts')
 </body>
 </html>

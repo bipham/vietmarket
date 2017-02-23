@@ -8,7 +8,7 @@ Version: 01
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>@yield('title', 'VietMarket') - VietMarketPlace</title>
+	<title>@yield('meta-title', 'VietMarket') - VietMarketPlace</title>
 	<link rel="stylesheet" href="{{asset('public/libs/bootstrap/css/bootstrap.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('public/libs/font-awesome/css/font-awesome.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('public/css/client/mystyle.css')}}"/>
