@@ -20,11 +20,11 @@ Route::get('login', 'Auth\AuthController@getLogin');
 Route::post('login', 'Auth\AuthController@authLogin');
 
 
-Route::get('HomePage', ['as'=>'Home', 'uses'=>'HomeController@showHome']);
+Route::get('HomePage', ['as'=>'Home', 'uses'=>'Client\HomeController@showHome']);
 
-Route::get('MyStore', ['as'=>'MyStore', 'uses'=>'HomeController@showMyStore']);
+Route::get('MyStore', ['as'=>'MyStore', 'uses'=>'Client\HomeController@showMyStore']);
 
-Route::get('ListOrder', ['as'=>'OrderDetail', 'uses'=>'HomeController@showOrderDetail']);
+Route::get('ListOrder', ['as'=>'OrderDetail', 'uses'=>'Client\HomeController@showOrderDetail']);
 
 
 /*****************

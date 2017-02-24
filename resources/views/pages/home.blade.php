@@ -1,7 +1,7 @@
-/************************
+<!--
 Created by: Nguyen Le Duy
 Date: 17/02/2017
-************************/
+-->
 
 @extends('layouts.master')
 
@@ -30,7 +30,7 @@ Date: 17/02/2017
 				-->
 				@for($i = 0; $i < 10; $i++)
 				@include('utils.contentTable')
-				@endfors
+				@endfor
 
 				<ul class="pagination">
 					<li><a href="#">1</a></li>

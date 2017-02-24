@@ -40,10 +40,6 @@ Date: 17/02/2017
 	</div>
 	
 	<div class="form-group">
-	  <input type="date" class="form-control" id="search-date">
-	</div>
-	
-	<div class="form-group">
 	  <select class="form-control" id="search-city">
 		<option disabled selected>City</option>
 		<option disabled>──────────</option>
