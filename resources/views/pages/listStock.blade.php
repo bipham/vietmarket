@@ -1,7 +1,7 @@
-/************************
+<!--
 Created by: Nguyen Le Duy
 Date: 21/02/2017
-************************/
+-->
 
 @extends('layouts.master')
 

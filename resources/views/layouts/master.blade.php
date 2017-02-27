@@ -1,25 +1,33 @@
-/************************
-Created by: Nguyen Le Duy
-Date: 21/02/2017
-************************/
+<!--**************************
+Created by: Anh Pham
+Date: 23/02/2017
+Version: 01
+***************************-->
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>VietMarketPlace</title>
-	<link rel="stylesheet" href="{{asset('duy_frontend/css/bootstrap.min.css')}}"/>
-	<link rel="stylesheet" href="{{asset('duy_frontend/css/homepage.css')}}"/>
-	<script src="{{asset('duy_frontend/js/jquery.min.js')}}"></script>
-	<script src="{{asset('duy_frontend/js/bootstrap.min.js')}}"></script>
+	<title>@yield('meta-title', 'VietMarket') - VietMarketPlace</title>
+	<link rel="stylesheet" href="{{asset('public/libs/bootstrap/css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/libs/font-awesome/css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/css/client/mystyle.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/css/client/homepage.css')}}"/>
 </head>
 <body>
 	@include('layouts.header')
-	
-	@yield('content')
+	<div role="main" ckass="main">
+		@yield('top-information')
 
-	@yield('scripts')
+		@yield('content')
+
+		@yield('scripts')
+	</div>
 
 	@include('layouts.footer')
+
+	<script src="{{asset('public/libs/tether/tether.min.js')}}"></script>
+	<script src="{{asset('public/libs/jquery/jquery.min.js')}}"></script>
+	<script src="{{asset('public/libs/bootstrap/js/bootstrap.min.js')}}"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+/*************************************************
+  Created by: Le Duy;
+  Date: 27/02/2017;
+  Style CSS for web - homepage
+  Version: 01;
+*************************************************/
+
+.listV-item {
+  margin: 5px 0 5px 0;
+}
+
+.listV-item * {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+}

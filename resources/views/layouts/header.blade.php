@@ -1,33 +1,39 @@
-<!--
-Created by: Nguyen Le Duy
-Date: 17/02/2017
--->
+<header id="header" class="">
+  <nav class="navbar navbar-toggleable-md bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Viet MarketPlace</a>
 
-<nav class="navbar navbar-fixed-top container-fluid">
-  <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: white;">
-        Menu
-      </button>
-      <img src="none.jpg" class="img-rounded navbar-brand" alt="Logo" width="50" height="50"/>
-      <a class="navbar-brand" href="{{route('Home')}}">Viet Marketplace</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="{{route('Home')}}"><span class="glyphicon glyphicon-home"></span> Trang Chủ</a></li>
-        <li class="sign-in"><a href="#"><span class="glyphicon glyphicon-user"></span> Username</a></li>
-        <li class="sign-in"><a href="{{route('MyStore')}}"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
-        <li class="sign-in"><a href="#">Bản đồ</a></li>
-        <li class="sign-in"><a href="#">Matching</a></li>
-        <li class=""><a href="#">Về chúng tôi</a></li>
-        <li class="sign-out"><a href="#">Đăng nhập</a></li>
-        <li class="sign-in"><a href="#">Đăng xuất</a></li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="{{route('Home')}}">Trang Chủ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Username</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="{{route('MyStore')}}">Giỏ hàng</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Bản đồ</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Matching</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Về chúng tôi</a>
+        </li>
       </ul>
-    <script>
-      var signOut = false;
-      $(".sign-in").toggleClass('hidden', signOut);
-      $(".sign-out").toggleClass('hidden', !signOut);
-    </script>
+      <ul class="navbar-nav my-2 my-lg-0">
+        <li class="nav-item sign-out">
+          <a class="nav-link" href="#">Đăng nhập</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Đăng xuất</a>
+        </li>
+      </ul>
     </div>
-</nav>
-<br/><br/><br/>
+  </nav>
+</header><!-- /header -->

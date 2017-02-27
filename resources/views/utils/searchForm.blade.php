@@ -2,7 +2,7 @@
 Date: 17/02/2017
 -->
 
-<div class="container-fluid text-center search">
+<div class="container-fluid text-center search mt-2">
   <form class="form-inline">
 	<div class="form-group">
 	  <input type="text" class="form-control" id="search-keyword" placeholder="Search Keywords"/>
@@ -37,10 +37,6 @@ Date: 17/02/2017
 		<option value="4">4 star</option>
 		<option value="5">5 star</option>
 	  </select>
-	</div>
-	
-	<div class="form-group">
-	  <input type="date" class="form-control" id="search-date">
 	</div>
 	
 	<div class="form-group">

@@ -1,7 +1,7 @@
-/************************
+<!--
 Created by: Nguyen Le Duy
 Date: 17/02/2017
-************************/
+-->
 
 @extends('layouts.master')
 
@@ -9,20 +9,27 @@ Date: 17/02/2017
 	@include('utils.advertise')
 	@include('utils.searchForm')
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-2" style="padding: 0;">
-				<div class="btn-group">
+		<div class="row mt-2">
+			<div class="col-lg-2">
+				<div class="btn-group" role="group">
 					<button id="btnStock" type="button" onclick="" class="btn btn-primary">Stock</button>
 					<button id="btnOrder" type="button" onclick="" class="btn btn-primary">Order</button>
 				</div>
-				<h2>Categories</h2>
-				<ul class="nav nav-pills nav-stacked">
-					<li><a>Computer</a></li>
-					<li><a>CellPhone</a></li>
-					<li><a>Book</a></li>
+
+				<button type="button" class="btn btn-secondary btn-lg btn-block" disabled>Categories</button>
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Computer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CellPhone</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Book</a>
+					</li>
 				</ul>
 			</div>
-			<div class="col-md-10">
+			<div class="col-lg-10">
 
 				<!--Updated by: Duy
 				Date: 23/02/2017
@@ -30,13 +37,15 @@ Date: 17/02/2017
 				-->
 				@for($i = 0; $i < 10; $i++)
 				@include('utils.contentTable')
-				@endfors
+				@endfor
 
-				<ul class="pagination">
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-				</ul>
+				<nav aria-label="Page navigation example">
+					<ul class="pagination">
+						<li class="page-item active"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 	</div>
