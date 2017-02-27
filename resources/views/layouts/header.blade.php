@@ -4,19 +4,36 @@
     <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">Viet MarketPlace</a>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="active"><a href="{{route('Home')}}"><span class="glyphicon glyphicon-home"></span> Trang Chủ</a></li>
-        <li class="sign-in"><a href="#"><span class="glyphicon glyphicon-user"></span> Username</a></li>
-        <li class="sign-in"><a href="{{route('MyStore')}}"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
-        <li class="sign-in"><a href="#">Bản đồ</a></li>
-        <li class="sign-in"><a href="#">Matching</a></li>
-        <li class=""><a href="#">Về chúng tôi</a></li>
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="{{route('Home')}}">Trang Chủ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Username</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="{{route('MyStore')}}">Giỏ hàng</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Bản đồ</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Matching</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Về chúng tôi</a>
+        </li>
       </ul>
       <ul class="navbar-nav my-2 my-lg-0">
-         <li class="sign-out"><a href="#">Đăng nhập</a></li>
-        <li class="sign-in"><a href="#">Đăng xuất</a></li>
+        <li class="nav-item sign-out">
+          <a class="nav-link" href="#">Đăng nhập</a>
+        </li>
+        <li class="nav-item sign-in">
+          <a class="nav-link" href="#">Đăng xuất</a>
+        </li>
       </ul>
     </div>
   </nav>
-  </header><!-- /header -->
+</header><!-- /header -->

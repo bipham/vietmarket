@@ -12,6 +12,7 @@ Version: 01
 	<link rel="stylesheet" href="{{asset('public/libs/bootstrap/css/bootstrap.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('public/libs/font-awesome/css/font-awesome.min.css')}}"/>
 	<link rel="stylesheet" href="{{asset('public/css/client/mystyle.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/css/client/homepage.css')}}"/>
 </head>
 <body>
 	@include('layouts.header')
