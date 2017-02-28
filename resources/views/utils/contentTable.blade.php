@@ -19,7 +19,7 @@ Date: 23/02/2017
 			<div class="row">
 			<div class="media col-lg-12 col-sm-8">
 				<div class="media-left">
-					<img src="public/img/avartar2.jpg" class="media-object user-avatar"/>
+					<img src="public/img/avartar2.jpg" class="media-object rounded-circle user-avatar"/>
 				</div>
 				<div class="media-body">
 					<h5 class="media-heading">Tên người đăng tin</h5>
@@ -35,7 +35,7 @@ Date: 23/02/2017
 			<div class="media">
 				<div class="media-body">
 					<h4 class="media-heading">Đánh giá</h4>
-					<ul class="list-inline">
+					<ul class="list-inline" name="rating">
 						<li class="list-inline-item"><a class=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a class=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a class=""><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
