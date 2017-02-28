@@ -12,20 +12,20 @@ Date: 17/02/2017
 		<div class="row mt-2">
 			<div class="col-lg-2">
 				<div class="btn-group" role="group">
-					<button id="btnStock" type="button" onclick="" class="btn btn-primary">Stock</button>
-					<button id="btnOrder" type="button" onclick="" class="btn btn-primary">Order</button>
+					<button id="btnStock" type="button" onclick="" class="btn btn-primary">Kho hàng</button>
+					<button id="btnOrder" type="button" onclick="" class="btn btn-primary">Đơn hàng</button>
 				</div>
 
 				<button type="button" class="btn btn-secondary btn-lg btn-block" disabled>Categories</button>
 				<ul class="nav flex-column">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Computer</a>
+						<a class="nav-link" href="#">Máy tính</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">CellPhone</a>
+						<a class="nav-link" href="#">Điện thoại</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Book</a>
+						<a class="nav-link" href="#">Sách</a>
 					</li>
 				</ul>
 			</div>

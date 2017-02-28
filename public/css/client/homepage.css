@@ -23,3 +23,7 @@
   width: 30px;
   height: 30px;
 }
+
+.fontItem, .fontItem:hover, .fontItem:focus {
+  text-decoration: none;
+}
