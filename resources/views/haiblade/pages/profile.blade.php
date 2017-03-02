@@ -1,0 +1,261 @@
+@extends('haiblade.master')
+@section('content')
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="row">
+
+					<div class="col-md-4">
+						<div class="well">
+							<center>
+								<img alt="trieuhai" src="img/avartar.png" class="img-circle">
+								<h3 class="text-center">
+									trieuhai
+								</h3> 
+							</center>
+							<div class="row text-center">
+								<div class="col-md-6">
+									<dl>
+										<dt>
+											Fullname
+										</dt>
+										<dd>
+											Trương Triệu Hải
+										</dd>
+										<dt>
+											Email
+										</dt>
+										<dd>
+											choutruong@gmail.com
+										</dd>
+									</dl>
+								</div>
+								<div class="col-md-6">
+									<dl>
+										<dt>
+											Reputation
+										</dt>
+										<dd>
+											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+										</dd>
+										<dt>
+											Phone
+										</dt>
+										<dd>
+											0903629676
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="row text-center">
+								<div class="col-md-12">
+									<dl class="dl">
+										<dt>
+											Address
+										</dt>
+										<dd>
+											1025/12A CMT8 , Tan Binh , Ho Chi Minh
+										</dd>
+									</dl>
+								</div>
+
+							</div>
+
+
+
+
+							<a href="#" class="btn btn-block btn-pf" type="button" data-toggle="modal" data-target="#editpf">Edit Profile</a>
+
+							<!-- Modal -->
+							<div id="editpf" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title text-center">Your Information</h4>
+										</div>
+
+										<div class="modal-body">
+											<div class="input-group">
+												<span class="input-group-addon" id="1">Fullname</span>
+												<input type="text" class="form-control" value="Trương Triệu Hải" id="fullname" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group">
+												<span class="input-group-addon" id="2">Nickname</span>
+												<input type="text" class="form-control" value="trieuhai" id="nickname" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group">
+												<span class="input-group-addon" id="3">Phone</span>
+												<input type="text" class="form-control" value="0903629676" id="sdt" aria-describedby="basic-addon1">
+											</div>
+
+											<div class="input-group">
+												<span class="input-group-addon" id="4">Email</span>
+												<input type="text" class="form-control" value="choutruong@gmail.com" id="email" aria-describedby="basic-addon1" readonly>
+											</div>
+
+											<div class="input-group">
+												<span class="input-group-addon" id="5">Address</span>
+												<input type="text" class="form-control" value="1025/12A CMT8" id="adress" aria-describedby="basic-addon1">
+
+												<button type="button" class="btn btn-block btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													City <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+													<li><a href="#">Ho Chi Minh</a></li>
+													<li><a href="#">Ha Noi</a></li>
+												</ul>
+
+												<button type="button" class="btn btn-block btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													District <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+													<li><a href="#">Q1</a></li>
+													<li><a href="#">Tan Binh</a></li>
+												</ul>
+											</div>
+
+											
+
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-success" data-dismiss="modal">Save and Close</button>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<a href="#" class="btn btn-block btn-pf" type="button" data-toggle="modal" data-target="#editpw">Change Password</a>
+
+							<!-- Modal -->
+							<div id="editpw" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title text-center">Change Password</h4>
+										</div>
+										<div class="modal-body">
+											<div class="form-group">
+												<input type="password" class="form-control" placeholder="Current Password" id="password">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control" placeholder="New Password" id="password">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control" placeholder="Retype New Password" id="password">
+											</div>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-success" data-dismiss="modal">Save and Close</button>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+
+						<div class="">
+							<div class="list-group text-center">
+								<a href="#" class="list-group-item active">List Group Item</a>
+								<a href="#" class="list-group-item">Để tạm khi cần sẽ dùng</a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-8">
+						<div class="row">
+						<div class="well">
+								<h4>
+									Customer Review
+								</h4>
+						</div>
+							<div class="media well">
+								<a href="#" class="pull-left"><img alt="" src="img/avartar2.jpg" class="img-circle"></a>
+								<div class="media-body">
+									<blockquote>
+									<div id="hearts-existing" class="starrr" data-rating='4'></div>
+										<p>
+											Hàng xài bình thường, không gặp vấn đề
+										</p>
+										
+										<small>Phạm Tuấn Anh <br>
+												<em>					
+										<time datetime="2011-01-12">January 12th, 2011</time>
+											</em>
+										</small>
+									</blockquote>
+								</div>
+							</div>
+							<div class="media well">
+								<a href="#" class="pull-left"><img alt="" src="img/avartar.png" class="img-circle"></a>
+								<div class="media-body">
+									<blockquote>
+									<div id="hearts-existing" class="starrr" data-rating='4'></div>
+										<p>
+											test
+										</p>
+										<small>trieuhai <br>
+										<em>					
+										<time datetime="2011-01-12">January 12th, 2011</time>
+											</em>
+											</small>
+									</blockquote>
+								</div>
+							</div>
+							<div class="media well">
+								<a href="#" class="pull-left"><img alt="" src="img/avartar1.jpg" class="img-circle"></a>
+								<div class="media-body">
+									<blockquote>
+									<div id="hearts-existing" class="starrr" data-rating='4'></div>
+										<p>
+											Chất lượng như website
+										</p>
+										<small>Le Duy Nguyen <br>
+										<em>					
+										<time datetime="2011-01-12">January 12th, 2011</time>
+											</em>
+										</small>
+										
+									</blockquote>
+									
+									
+								</div>
+							</div>
+							<div class="media well">
+								<a href="#" class="pull-left"><img alt="B" src="img/avartar1.jpg" class="img-circle"></a>
+								<div class="media-body">
+									<blockquote>
+									<div id="hearts-existing" class="starrr" data-rating='4'></div>
+										<p>
+											Hẹn đúng giờ, nhanh chóng
+										</p>
+										<small>Le Duy Nguyen<br>
+										<em>					
+										<time datetime="2011-01-12">January 12th, 2011</time>
+											</em>
+										</small>
+									</blockquote>
+									
+									
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endsection()

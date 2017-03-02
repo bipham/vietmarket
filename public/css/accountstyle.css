@@ -80,7 +80,7 @@ a:hover {
 /***********************
   DROP MENU
 ************************/
-.dropdown-menu:hover {
+.dropdown:hover .dropdown-menu {
     display: block;
     border-style: none;
 }
