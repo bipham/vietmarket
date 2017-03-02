@@ -15,66 +15,26 @@ Truong Trieu Hai
 	<meta name="description" content="Login Page">
 	<meta name="author" content="ChouTruong">
 
-	<link href="{{url('public/css/bootstrap.min.css')}}" rel="stylesheet">
-	<link href="{{url('public/css/bootstrap-theme.min.css')}}" rel="stylesheet">
-	<link href="{{url('public/css/accountstyle.css')}}" rel="stylesheet">
+	<link rel="stylesheet" href="{{asset('public/libs/bootstrap/css/bootstrap.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/libs/font-awesome/css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/css/client/mystyle.css')}}"/>
+	<link rel="stylesheet" href="{{asset('public/css/client/homepage.css')}}"/>
 </head>
 
-<header id="header" class="">
-	<div class="row">
-			<div class="">
-				<nav class="navbar navbar-account" role="navigation">
-					<div class="navbar-header">
-
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">VietMarketPlace</a>
-					</div>
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown">
-								<button type="" class="btn-lang">Language <span class="caret"></span></button>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="#">English</a>
-									</li>
-									<li>
-										<a href="#">Vietnamese</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-
-				</nav>
-			</div>
-		</div>
-</header><!-- /header -->
-
 <body>
+	@include('layouts.header')
+	<div role="main" ckass="main">
+		@yield('top-information')
 
-	<!-- content -->
-	@yield('content')
-	<!-- content -->
-	
-	<script src="{{url('public/js/jquery.min.js')}}"></script>
-	<script src="{{url('public/js/bootstrap.min.js')}}"></script>
-	<script src="{{url('public/js/starscripts.js')}}"></script>
-</body>
+		@yield('content')
 
-<footer class="navbar-fixed-bottom panel-footer navbar-account">
-	<div class="row text-center">
-		<tr>
-			<td> <a href="#">Home</a></td>
-			<span>|</span>
-			<td> <a href="#">Privacy</a></td>
-			<span>|</span>
-			<td> <a href="#">Terms</a></td>
-			<span>|</span>
-			<td> <a href="#">About</a></td>
-		</tr>
+		@yield('scripts')
 	</div>
-</footer>
 
+	@include('layouts.footer')
+
+	<script src="{{asset('public/libs/tether/tether.min.js')}}"></script>
+	<script src="{{asset('public/libs/jquery/jquery.min.js')}}"></script>
+	<script src="{{asset('public/libs/bootstrap/js/bootstrap.min.js')}}"></script>
+</body>
 </html>

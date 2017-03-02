@@ -34,3 +34,15 @@ Truong Trieu Hai
 Route::get('account', function() {
 	return view('account.pages.login');
 });
+
+Route::get('profile', function() {
+	return view('haiblade.pages.profile');
+});
+
+Route::get('upload', function() {
+	return view('haiblade.pages.upload');
+});
+
+Route::get('map', function() {
+	return view('haiblade.pages.map');
+});
