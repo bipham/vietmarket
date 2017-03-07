@@ -10,19 +10,19 @@
 						<input type="button" name="cate" value="Book" class="dropdown-toggle btn btn-success " data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
 						<ul class="dropdown-menu">
 							<li>
-								<a href="#">Book</a>
+								<a href="#">Sách</a>
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="#">Clothing</a>
+								<a href="#">Quần áo</a>
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="#">Computer</a>
+								<a href="#">Máy tính</a>
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="#">Cellphones</a>
+								<a href="#">Điện thoại</a>
 							</li>
 						</ul>
 					</li>
@@ -31,11 +31,11 @@
 						<input type="button" name="cate" value="Stock" class="dropdown-toggle btn btn-warning" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
 						<ul class="dropdown-menu">
 							<li>
-								<a href="#">Stock</a>
+								<a href="#">Kho hàng</a>
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="#">Order</a>
+								<a href="#">Đơn hàng</a>
 							</li>
 						</ul>
 					</li>
@@ -44,11 +44,11 @@
 						<input type="button" name="cate" value="New" class="dropdown-toggle btn btn-danger" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
 						<ul class="dropdown-menu">
 							<li>
-								<a href="#">New</a>
+								<a href="#">Mới</a>
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="#">Old</a>
+								<a href="#">Cũ</a>
 							</li>
 						</ul>
 					</li>

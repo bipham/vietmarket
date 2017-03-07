@@ -18,7 +18,7 @@
 								<div class="col-md-6">
 									<dl>
 										<dt>
-											Fullname
+											Họ &amp tên
 										</dt>
 										<dd>
 											Trương Triệu Hải
@@ -34,13 +34,13 @@
 								<div class="col-md-6">
 									<dl>
 										<dt>
-											Reputation
+											Danh tiếng
 										</dt>
 										<dd>
 											<div id="hearts-existing" class="starrr" data-rating='4'></div>
 										</dd>
 										<dt>
-											Phone
+											Điện thoại
 										</dt>
 										<dd>
 											0903629676
@@ -52,7 +52,7 @@
 								<div class="col-md-12">
 									<dl class="dl">
 										<dt>
-											Address
+											Địa chỉ
 										</dt>
 										<dd>
 											1025/12A CMT8 , Tan Binh , Ho Chi Minh
@@ -65,7 +65,7 @@
 
 
 
-							<a href="#" class="btn btn-block btn-pf" type="button" data-toggle="modal" data-target="#editpf">Edit Profile</a>
+							<a href="#" class="btn btn-block btn-pf" type="button" data-toggle="modal" data-target="#editpf">Sửa thông tin</a>
 
 							<!-- Modal -->
 							<div id="editpf" class="modal fade" role="dialog">
@@ -75,12 +75,12 @@
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title text-center">Your Information</h4>
+											<h4 class="modal-title text-center">Thông tin của bạn</h4>
 										</div>
 
 										<div class="modal-body">
 											<div class="input-group">
-												<span class="input-group-addon" id="1">Fullname</span>
+												<span class="input-group-addon" id="1">Họ &amp tên</span>
 												<input type="text" class="form-control" value="Trương Triệu Hải" id="fullname" aria-describedby="basic-addon1">
 											</div>
 
@@ -90,7 +90,7 @@
 											</div>
 
 											<div class="input-group">
-												<span class="input-group-addon" id="3">Phone</span>
+												<span class="input-group-addon" id="3">Điện thoại</span>
 												<input type="text" class="form-control" value="0903629676" id="sdt" aria-describedby="basic-addon1">
 											</div>
 
@@ -100,11 +100,11 @@
 											</div>
 
 											<div class="input-group">
-												<span class="input-group-addon" id="5">Address</span>
+												<span class="input-group-addon" id="5">Địa chỉ</span>
 												<input type="text" class="form-control" value="1025/12A CMT8" id="adress" aria-describedby="basic-addon1">
 
 												<button type="button" class="btn btn-block btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-													City <span class="caret"></span>
+													Tỉnh/Thành phố <span class="caret"></span>
 												</button>
 												<ul class="dropdown-menu">
 													<li><a href="#">Ho Chi Minh</a></li>
@@ -112,7 +112,7 @@
 												</ul>
 
 												<button type="button" class="btn btn-block btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-													District <span class="caret"></span>
+													Quận/Huyện <span class="caret"></span>
 												</button>
 												<ul class="dropdown-menu">
 													<li><a href="#">Q1</a></li>
@@ -124,14 +124,14 @@
 
 										</div>
 										<div class="modal-footer">
-											<button type="button" class="btn btn-success" data-dismiss="modal">Save and Close</button>
+											<button type="button" class="btn btn-success" data-dismiss="modal">Lưu &amp Thoát</button>
 										</div>
 									</div>
 
 								</div>
 							</div>
 
-							<a href="#" class="btn btn-block btn-pf" type="button" data-toggle="modal" data-target="#editpw">Change Password</a>
+							<a href="#" class="btn btn-block btn-pf" type="button" data-toggle="modal" data-target="#editpw">Đổi Mật Khẩu</a>
 
 							<!-- Modal -->
 							<div id="editpw" class="modal fade" role="dialog">
@@ -141,21 +141,21 @@
 									<div class="modal-content">
 										<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title text-center">Change Password</h4>
+											<h4 class="modal-title text-center">Đổi Mật Khẩu</h4>
 										</div>
 										<div class="modal-body">
 											<div class="form-group">
-												<input type="password" class="form-control" placeholder="Current Password" id="password">
+												<input type="password" class="form-control" placeholder="Mật Khẩu Hiện Tại" id="password">
 											</div>
 											<div class="form-group">
-												<input type="password" class="form-control" placeholder="New Password" id="password">
+												<input type="password" class="form-control" placeholder="Mật Khẩu Mới" id="password">
 											</div>
 											<div class="form-group">
-												<input type="password" class="form-control" placeholder="Retype New Password" id="password">
+												<input type="password" class="form-control" placeholder="Nhập Lại Mật Khẩu Mới" id="password">
 											</div>
 										</div>
 										<div class="modal-footer">
-											<button type="button" class="btn btn-success" data-dismiss="modal">Save and Close</button>
+											<button type="button" class="btn btn-success" data-dismiss="modal">Lưu &amp Thoát</button>
 										</div>
 									</div>
 
@@ -178,7 +178,7 @@
 						<div class="row">
 						<div class="well">
 								<h4>
-									Customer Review
+									Đánh Giá
 								</h4>
 						</div>
 							<div class="media well">

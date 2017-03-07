@@ -3,33 +3,33 @@
 <div class="col-md-4">
 	<form role="form">
 
-		<h1>Create a new account</h1>
-		<h3>It's free and always will be.</h3>
+		<h1>Tạo Tài khoản Mới</h1>
+		<h3>Cam kết miễn phí trọn đời</h3>
 		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Fullname" id="name">
+			<input type="text" class="form-control" placeholder="Họ & tên" id="name">
 		</div>
 		<div class="form-group">
-			<input type="email" class="form-control" placeholder="Email" id="email">
+			<input type="email" class="form-control" placeholder="Địa chỉ Email" id="email">
 		</div>
 		<div class="form-group">
-			<input type="password" class="form-control" placeholder="Password" id="password">
+			<input type="password" class="form-control" placeholder="Mật khẩu" id="password">
 		</div>
 		<div class="form-group">
-			<input type="password" class="form-control" placeholder="ReEnter Password" id="password">
+			<input type="password" class="form-control" placeholder="Nhập lại Mật khẩu" id="password">
 		</div>
 		<div class="checkbox">
 			<label>
-				<input type="checkbox"> I agree to the <em>Terms of Use</em> and <em>Privacy Policy</em>
+				<input type="checkbox"> Tôi đã đọc và đồng ý với các khoản <em>Điều lệ Sử dụng</em> and <em>Quyền Riêng tư</em>
 			</label>
 		</div>
 		<CENTER><button type="submit" class="btn btn-lg btn-account">
-			Create Account
+			Tạo tài khoản
 		</button></CENTER>
 
 		<div>
 			<center>
-				Already have an Account?
-				<a style="color: #000; font-weight: bold;" href="login.html">Log In</a>
+				Bạn đã có tài khoản?
+				<a style="color: #000; font-weight: bold;" href="login.html">Đăng nhập</a>
 			</center>
 		</div>
 	</form>

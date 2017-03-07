@@ -34,13 +34,10 @@ Truong Trieu Hai
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="dropdown">
-								<button type="" class="btn-lang">Language <span class="caret"></span></button>
+								<button type="" class="btn-lang">Ngôn Ngữ <span class="caret"></span></button>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="#">English</a>
-									</li>
-									<li>
-										<a href="#">Vietnamese</a>
+										<a href="#">Tiếng Việt</a>
 									</li>
 								</ul>
 							</li>
@@ -108,13 +105,13 @@ Truong Trieu Hai
 <footer class="navbar-fixed-bottom panel-footer navbar-account">
 	<div class="row text-center">
 		<tr>
-			<td> <a href="#">Home</a></td>
+			<td> <a href="#">Trang chủ</a></td>
 			<span>|</span>
-			<td> <a href="#">Privacy</a></td>
+			<td> <a href="#">Riêng tư</a></td>
 			<span>|</span>
-			<td> <a href="#">Terms</a></td>
+			<td> <a href="#">Điều lệ</a></td>
 			<span>|</span>
-			<td> <a href="#">About</a></td>
+			<td> <a href="#">Thông tin</a></td>
 		</tr>
 	</div>
 </footer>

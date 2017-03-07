@@ -5,13 +5,13 @@
 			<div class="col-md-12">
 				<ul class="breadcrumb">
 					<li>
-						<a href="#">My Store</a> <span class="divider">/</span>
+						<a href="#">Giỏ hàng</a> <span class="divider">/</span>
 					</li>
 					<li>
-						<a href="#">Stock</a> <span class="divider">/</span>
+						<a href="#">Kho hàng</a> <span class="divider">/</span>
 					</li>
 					<li class="active">
-						Upload
+						Đăng Vật Phẩm
 					</li>
 				</ul>
 			</div>
@@ -20,7 +20,7 @@
 			<div class="col-md-8">
 				<div class="well">
 					<h3 class="text-left">
-						Item Specifications
+						Thông Tin Vật Phẩm
 					</h3>
 					<hr>
 
@@ -28,29 +28,29 @@
 						<div class="form-group">
 
 							<label>
-								Name of the Item*
+								Tên Vật Phẩm*
 							</label>
-							<input type="text" name="itemname" class="form-control" placeholder="Enter the item name here" required>
+							<input type="text" name="itemname" class="form-control" placeholder="Điền vào đây" required>
 						</div>
 						<div class="form-group">
 							<label>
-								Item Description*
+								Mô Tả*
 							</label>
-							<textarea name="discription" rows="5" cols="50" class="form-control" placeholder="Here is the Description" style="resize: none;"></textarea>
-						</div>
-						<div class="form-group">
-
-							<label>
-								Price *
-							</label>
-							<input type="number" name="price" class="form-control" placeholder="Enter the item price here (VND)" required>
+							<textarea name="discription" rows="5" cols="50" class="form-control" placeholder="Điền vào đây" style="resize: none;"></textarea>
 						</div>
 						<div class="form-group">
 
 							<label>
-								Address *
+								Giá *
 							</label>
-							<input type="text" name="address" class="form-control" placeholder="Enter address" required>
+							<input type="number" name="price" class="form-control" placeholder="Điền vào đây (Đơn vị VND)" required>
+						</div>
+						<div class="form-group">
+
+							<label>
+								Địa Chỉ *
+							</label>
+							<input type="text" name="address" class="form-control" placeholder="Địa Chỉ" required>
 						</div>
 
 						<hr>
@@ -58,30 +58,29 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<label>
-									Select Category *
+									Chọn Danh mục *
 								</label>
 								<select class="form-control">
-									<option selected>Book</option>
-									<option>Cloting</option>
-									<option>Computer</option>
-									<option>Cellphones</option>
+									<option selected>Sách</option>
+									<option>Quần Áo</option>
+									<option>Máy Tính</option>
+									<option>Điện Thoại</option>
 								</select>
 							</div>
 							<div class="form-group">
 								<label>
-									Select Status *
+									Chọn Tình Trạng *
 								</label>
 								<select class="form-control">
-									<option selected>New</option>
-									<option>LikeNew</option>
-									<option>Old</option>
+									<option selected>Mới</option>
+									<option>Cũ</option>
 								</select>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
 								<label>
-									City/Province *
+									Tỉnh/ Thành Phố *
 								</label>
 								<select class="form-control">
 									<option selected>Ho Chi Minh</option>
@@ -89,7 +88,7 @@
 							</div>
 							<div class="form-group">
 								<label>
-									District *
+									Quận/ Huyện *
 								</label>
 								<select class="form-control">
 									<option selected>1</option>
@@ -105,25 +104,25 @@
 						<div class="form-group">
 
 							<label>
-								Upload image
+								Đăng Hình Ảnh
 							</label>
 							<input type="file" name="image">
 							<input type="file" name="image">
 							<input type="file" name="image">
 							<p class="help-block">
-								Upload maximum 5 Pictures
+								Đăng Tối Đa 5 Hình
 							</p>
 						</div>
 						<hr>
 						<div class="checkbox">
 
 							<label>
-								<input type="checkbox" required> I already read the term
+								<input type="checkbox" required> Tôi đã đọc các điều lệ
 							</label>
 						</div> 
 						
 						<button type="submit" class="btn btn-block btn-pf">
-							Submit
+							Gửi
 						</button>
 					</form>
 					
@@ -138,7 +137,7 @@
 					<div class="panel-group" id="panel-13650">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-13650" href="#panel-element-368994">Result</a>  <span class="badge pull-right">2</span>
+								<a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-13650" href="#panel-element-368994">Kết Quả</a>  <span class="badge pull-right">2</span>
 							</div>
 							<div id="panel-element-368994" class="panel-collapse collapse">
 								<div class="panel-body">
@@ -156,7 +155,7 @@
 														500.000 VND
 													</p>
 													<p>
-														<a class="btn btn-primary" href="#">View</a> <a class="btn" href="#">Favorite</a>
+														<a class="btn btn-primary" href="#">Xem</a> <a class="btn" href="#">Yêu Thích</a>
 													</p>
 												</div>
 											</div>
@@ -173,7 +172,7 @@
 														500.000 VND
 													</p>
 													<p>
-														<a class="btn btn-primary" href="#">View</a> <a class="btn" href="#">Favorite</a>
+														<a class="btn btn-primary" href="#">Xem</a> <a class="btn" href="#">Yêu Thích</a>
 													</p>
 												</div>
 											</div>
