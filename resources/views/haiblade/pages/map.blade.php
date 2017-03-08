@@ -2,65 +2,68 @@
 @section('content')
 <div class="container-fluid">
 
-	<div class="row well">
-		<div class="col-md-12">
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li class="dropdown">
-						<input type="button" name="cate" value="Book" class="dropdown-toggle btn btn-success " data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#">Sách</a>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<a href="#">Quần áo</a>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<a href="#">Máy tính</a>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<a href="#">Điện thoại</a>
-							</li>
-						</ul>
-					</li>
+	<div class="row card">
+		<div class="card-block">
+			
+			
+			<div class="col-md-12">
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<input type="button" name="cate" value="Book" class="dropdown-toggle btn btn-success " data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Sách</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Quần áo</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Máy tính</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Điện thoại</a>
+								</li>
+							</ul>
+						</li>
 
-					<li class="dropdown">
-						<input type="button" name="cate" value="Stock" class="dropdown-toggle btn btn-warning" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#">Kho hàng</a>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<a href="#">Đơn hàng</a>
-							</li>
-						</ul>
-					</li>
+						<li class="dropdown">
+							<input type="button" name="cate" value="Stock" class="dropdown-toggle btn btn-warning" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Kho hàng</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Đơn hàng</a>
+								</li>
+							</ul>
+						</li>
 
-					<li class="dropdown">
-						<input type="button" name="cate" value="New" class="dropdown-toggle btn btn-danger" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#">Mới</a>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<a href="#">Cũ</a>
-							</li>
-						</ul>
-					</li>
+						<li class="dropdown">
+							<input type="button" name="cate" value="New" class="dropdown-toggle btn btn-danger" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Mới</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">Cũ</a>
+								</li>
+							</ul>
+						</li>
 
-					<li class="dropdown">
-						<input type="button" name="cate" value="Submit" class="dropdown-toggle btn btn-primary" data-toggle="dropdown">
-					</li>
+						<li class="dropdown">
+							<input type="button" name="cate" value="Submit" class="dropdown-toggle btn btn-primary" data-toggle="dropdown">
+						</li>
 
-				</ul>
+					</ul>
+				</div>
 			</div>
 		</div>
-
 	</div>
 </div>
 <!-- MAP -->
