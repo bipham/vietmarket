@@ -11,13 +11,13 @@
           <a class="nav-link" href="{{route('Home')}}">Trang Chủ <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item sign-in">
-          <a class="nav-link" href="#">Username</a>
+          <a class="nav-link" href="{{route('Profile')}}">Username</a>
         </li>
         <li class="nav-item sign-in">
           <a class="nav-link" href="{{route('MyStore')}}">Giỏ hàng</a>
         </li>
         <li class="nav-item sign-in">
-          <a class="nav-link" href="#">Bản đồ</a>
+          <a class="nav-link" href="{{route('Map')}}">Bản đồ</a>
         </li>
         <li class="nav-item sign-in">
           <a class="nav-link" href="#">Matching</a>
