@@ -2,7 +2,7 @@
 Date: 17/02/2017
 -->
 
-<div class="container-fluid text-center search mt-2">
+<div class="container-fluid search mt-2">
   <form class="form-inline">
 	<div class="form-group">
 	  <input type="text" class="form-control" id="search-keyword" placeholder="Search Keywords"/>
