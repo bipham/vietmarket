@@ -29,10 +29,18 @@ Route::get('ListOrder', ['as'=>'OrderDetail', 'uses'=>'Client\HomeController@sho
 
 /*****************
 Truong Trieu Hai
-23/02/2017
+8/8/2017
 *****************/
-Route::get('account', function() {
+Route::get('login', function() {
 	return view('account.pages.login');
+});
+
+Route::get('reset', function() {
+	return view('account.pages.reset');
+});
+
+Route::get('register', function() {
+	return view('account.pages.register');
 });
 
 Route::get('profile', function() {

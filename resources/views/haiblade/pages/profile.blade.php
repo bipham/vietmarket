@@ -1,15 +1,16 @@
 @extends('haiblade.master')
 @section('content')
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
 
-				<div class="row">
+			<div class="row">
 
-					<div class="col-md-4">
-						<div class="well">
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-block">
 							<center>
-								<img alt="trieuhai" src="img/avartar.png" class="img-circle">
+								<img alt="trieuhai" src="{{url('public/img/avartar.png')}}" class="img-circle">
 								<h3 class="text-center">
 									trieuhai
 								</h3> 
@@ -37,7 +38,7 @@
 											Danh tiếng
 										</dt>
 										<dd>
-											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<div id="hearts-existing" class="starrr" data-rating='4'>****</div>
 										</dd>
 										<dt>
 											Điện thoại
@@ -161,101 +162,126 @@
 
 								</div>
 							</div>
-
-						</div>
-
-
-						<div class="">
-							<div class="list-group text-center">
-								<a href="#" class="list-group-item active">List Group Item</a>
-								<a href="#" class="list-group-item">Để tạm khi cần sẽ dùng</a>
-							</div>
 						</div>
 					</div>
 
+					<div class="">
+						<div class="list-group text-center">
+							<a href="#" class="list-group-item active">List Group Item</a>
+							<a href="#" class="list-group-item">Để tạm khi cần sẽ dùng</a>
+						</div>
+					</div>
+				</div>
 
-					<div class="col-md-8">
-						<div class="row">
-						<div class="well">
+
+				<div class="col-md-8">
+					<div class="row">
+						<div class="card">
+							<div class="card-title">
 								<h4>
 									Đánh Giá
 								</h4>
+							</div>
 						</div>
-							<div class="media well">
-								<a href="#" class="pull-left"><img alt="" src="img/avartar2.jpg" class="img-circle"></a>
-								<div class="media-body">
-									<blockquote>
-									<div id="hearts-existing" class="starrr" data-rating='4'></div>
-										<p>
-											Hàng xài bình thường, không gặp vấn đề
-										</p>
-										
-										<small>Phạm Tuấn Anh <br>
+						
+						<div class="card">
+							<div class="card-block">
+								<div class="media">
+
+									<img class="d-flex mr-3 img-circle" src="{{url('public/img/avartar2.jpg')}}" alt="Generic placeholder image">
+									<div class="media-body">
+										<blockquote>
+											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<p>
+												Hàng xài bình thường, không gặp vấn đề
+											</p>
+
+											<small>Phạm Tuấn Anh <br>
 												<em>					
-										<time datetime="2011-01-12">January 12th, 2011</time>
-											</em>
-										</small>
-									</blockquote>
-								</div>
-							</div>
-							<div class="media well">
-								<a href="#" class="pull-left"><img alt="" src="img/avartar.png" class="img-circle"></a>
-								<div class="media-body">
-									<blockquote>
-									<div id="hearts-existing" class="starrr" data-rating='4'></div>
-										<p>
-											test
-										</p>
-										<small>trieuhai <br>
-										<em>					
-										<time datetime="2011-01-12">January 12th, 2011</time>
-											</em>
+													<time datetime="2011-01-12">January 12th, 2011</time>
+												</em>
 											</small>
-									</blockquote>
+										</blockquote>
+									</div>
 								</div>
 							</div>
-							<div class="media well">
-								<a href="#" class="pull-left"><img alt="" src="img/avartar1.jpg" class="img-circle"></a>
-								<div class="media-body">
-									<blockquote>
-									<div id="hearts-existing" class="starrr" data-rating='4'></div>
-										<p>
-											Chất lượng như website
-										</p>
-										<small>Le Duy Nguyen <br>
-										<em>					
-										<time datetime="2011-01-12">January 12th, 2011</time>
-											</em>
-										</small>
-										
-									</blockquote>
-									
-									
+						</div>
+						
+						<div class="card">
+							<div class="card-block">
+								<div class="media">
+									<img class="d-flex mr-3 img-circle" src="{{url('public/img/avartar.png')}}" alt="Generic placeholder image">
+									<div class="media-body">
+										<blockquote>
+											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<p>
+												test
+											</p>
+											<small>trieuhai <br>
+												<em>					
+													<time datetime="2011-01-12">January 12th, 2011</time>
+												</em>
+											</small>
+										</blockquote>
+									</div>
 								</div>
 							</div>
-							<div class="media well">
-								<a href="#" class="pull-left"><img alt="B" src="img/avartar1.jpg" class="img-circle"></a>
-								<div class="media-body">
-									<blockquote>
-									<div id="hearts-existing" class="starrr" data-rating='4'></div>
-										<p>
-											Hẹn đúng giờ, nhanh chóng
-										</p>
-										<small>Le Duy Nguyen<br>
-										<em>					
-										<time datetime="2011-01-12">January 12th, 2011</time>
-											</em>
-										</small>
-									</blockquote>
-									
-									
+						</div>
+						
+						<div class="card">
+							<div class="card-block">
+								<div class="media">
+									<a href="#" class="pull-left"><img alt="" src="{{url('public/img/avartar1.jpg')}}" class="img-circle"></a>
+									<div class="media-body">
+										<blockquote>
+											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<p>
+												Chất lượng như website
+											</p>
+											<small>Le Duy Nguyen <br>
+												<em>					
+													<time datetime="2011-01-12">January 12th, 2011</time>
+												</em>
+											</small>
+
+										</blockquote>
+
+
+									</div>
 								</div>
 							</div>
 						</div>
 
+						<div class="card">
+							<div class="card-block">
+								<div class="media">
+									<a href="#" class="pull-left"><img alt="B" src="{{url('public/img/avartar1.jpg')}}" class="img-circle"></a>
+									<div class="media-body">
+										<blockquote>
+											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<p>
+												Hẹn đúng giờ, nhanh chóng
+											</p>
+											<small>Le Duy Nguyen<br>
+												<em>					
+													<time datetime="2011-01-12">January 12th, 2011</time>
+												</em>
+											</small>
+										</blockquote>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						
+						
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 @endsection

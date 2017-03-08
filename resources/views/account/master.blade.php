@@ -17,7 +17,7 @@ Truong Trieu Hai
 
 	<link href="{{url('public/css/bootstrap.min.css')}}" rel="stylesheet">
 	<link href="{{url('public/css/bootstrap-theme.min.css')}}" rel="stylesheet">
-	<link href="{{url('public/css/accountstyle.css')}}" rel="stylesheet">
+	<link href="{{url('public/css/client/accountstyle.css')}}" rel="stylesheet">
 </head>
 
 <header id="header" class="">
@@ -70,13 +70,13 @@ Truong Trieu Hai
 							</ol>
 							<div class="carousel-inner carousel-account">
 								<div class="item active">
-									<img alt="Carousel Bootstrap First" src="img/1.png">
+									<img alt="Carousel Bootstrap First" src="{{url('public/img/1.png')}}">
 								</div>
 								<div class="item">
-									<img alt="Carousel Bootstrap Second" src="img/2.jpg">
+									<img alt="Carousel Bootstrap Second" src="{{url('public/img/2.jpg')}}">
 								</div>
 								<div class="item">
-									<img alt="Carousel Bootstrap Third" src="img/3.jpg">
+									<img alt="Carousel Bootstrap Third" src="{{url('public/img/3.jpg')}}">
 								</div>
 							</div> <a class="left carousel-control" href="#carousel-222156" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-222156" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 						</div>
