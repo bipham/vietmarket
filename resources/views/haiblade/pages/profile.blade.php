@@ -175,15 +175,14 @@
 
 
 				<div class="col-md-8">
-					<div class="row">
 						<div class="card">
-							<div class="card-title">
+							<div class="card-block">
 								<h4>
 									Đánh Giá
 								</h4>
 							</div>
 						</div>
-						
+						<br>
 						<div class="card">
 							<div class="card-block">
 								<div class="media">
@@ -191,7 +190,7 @@
 									<img class="d-flex mr-3 img-circle" src="{{url('public/img/avartar2.jpg')}}" alt="Generic placeholder image">
 									<div class="media-body">
 										<blockquote>
-											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<div id="hearts-existing" class="starrr" data-rating='4'>****</div>
 											<p>
 												Hàng xài bình thường, không gặp vấn đề
 											</p>
@@ -213,7 +212,7 @@
 									<img class="d-flex mr-3 img-circle" src="{{url('public/img/avartar.png')}}" alt="Generic placeholder image">
 									<div class="media-body">
 										<blockquote>
-											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<div id="hearts-existing" class="starrr" data-rating='4'>****</div>
 											<p>
 												test
 											</p>
@@ -231,10 +230,10 @@
 						<div class="card">
 							<div class="card-block">
 								<div class="media">
-									<a href="#" class="pull-left"><img alt="" src="{{url('public/img/avartar1.jpg')}}" class="img-circle"></a>
+									<img class="d-flex mr-3 img-circle" src="{{url('public/img/avartar1.jpg')}}" alt="Generic placeholder image">
 									<div class="media-body">
 										<blockquote>
-											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<div id="hearts-existing" class="starrr" data-rating='4'>****</div>
 											<p>
 												Chất lượng như website
 											</p>
@@ -255,10 +254,10 @@
 						<div class="card">
 							<div class="card-block">
 								<div class="media">
-									<a href="#" class="pull-left"><img alt="B" src="{{url('public/img/avartar1.jpg')}}" class="img-circle"></a>
+									<img class="d-flex mr-3 img-circle" src="{{url('public/img/avartar1.jpg')}}" alt="Generic placeholder image">
 									<div class="media-body">
 										<blockquote>
-											<div id="hearts-existing" class="starrr" data-rating='4'></div>
+											<div id="hearts-existing" class="starrr" data-rating='4'>****</div>
 											<p>
 												Hẹn đúng giờ, nhanh chóng
 											</p>
@@ -274,10 +273,6 @@
 								</div>
 							</div>
 						</div>
-
-						
-						
-					</div>
 
 				</div>
 			</div>
