@@ -1,6 +1,7 @@
 @extends('haiblade.master')
 @section('content')
 <div class="container-fluid">
+	<br>
 	<div class="row">
 		<div class="col-md-12">
 			<ul class="breadcrumb">
@@ -56,49 +57,49 @@
 						<hr>
 						<div class="row">
 							<div class="col-md-6">
-							<div class="form-group">
-								<label>
-									Chọn Danh mục *
-								</label>
-								<select class="form-control">
-									<option selected>Sách</option>
-									<option>Quần Áo</option>
-									<option>Máy Tính</option>
-									<option>Điện Thoại</option>
-								</select>
+								<div class="form-group">
+									<label>
+										Chọn Danh mục *
+									</label>
+									<select class="form-control">
+										<option selected>Sách</option>
+										<option>Quần Áo</option>
+										<option>Máy Tính</option>
+										<option>Điện Thoại</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label>
+										Chọn Tình Trạng *
+									</label>
+									<select class="form-control">
+										<option selected>Mới</option>
+										<option>Cũ</option>
+									</select>
+								</div>
 							</div>
-							<div class="form-group">
-								<label>
-									Chọn Tình Trạng *
-								</label>
-								<select class="form-control">
-									<option selected>Mới</option>
-									<option>Cũ</option>
-								</select>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>
+										Tỉnh/ Thành Phố *
+									</label>
+									<select class="form-control">
+										<option selected>Ho Chi Minh</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label>
+										Quận/ Huyện *
+									</label>
+									<select class="form-control">
+										<option selected>1</option>
+										<option>3</option>
+										<option>5</option>
+										<option>10</option>
+										<option>Tan Binh</option>
+									</select>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<label>
-									Tỉnh/ Thành Phố *
-								</label>
-								<select class="form-control">
-									<option selected>Ho Chi Minh</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<label>
-									Quận/ Huyện *
-								</label>
-								<select class="form-control">
-									<option selected>1</option>
-									<option>3</option>
-									<option>5</option>
-									<option>10</option>
-									<option>Tan Binh</option>
-								</select>
-							</div>
-						</div>
 						</div>
 						
 						<br>
@@ -130,62 +131,40 @@
 						Matching
 					</h3>
 					<hr>
-					<div class="panel-group" id="panel-13650">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-13650" href="#panel-element-368994">Kết Quả</a>  <span class="badge pull-right">2</span>
+					<div id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="card">
+							<div class="card-header" role="tab" id="headingOne">
+								<h5 class="mb-0">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Kho Hàng
+									</a>
+								</h5>
 							</div>
-							<div id="panel-element-368994" class="panel-collapse collapse">
-								<div class="panel-body">
 
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="thumbnail">
-												<img alt="Bootstrap Thumbnail First" src="http://lorempixel.com/output/people-q-c-600-200-1.jpg" />
-												<div class="caption">
-													<h3>
-														AsusK501LX
-													</h3>
-													<p>
-
-														500.000 VND
-													</p>
-													<p>
-														<a class="btn btn-primary" href="#">Xem</a> <a class="btn" href="#">Yêu Thích</a>
-													</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="thumbnail">
-												<img alt="Bootstrap Thumbnail Second" src="http://lorempixel.com/output/city-q-c-600-200-1.jpg" />
-												<div class="caption">
-													<h3>
-														AsusK501LX
-													</h3>
-													<p>
-
-														500.000 VND
-													</p>
-													<p>
-														<a class="btn btn-primary" href="#">Xem</a> <a class="btn" href="#">Yêu Thích</a>
-													</p>
-												</div>
-											</div>
+							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+								<div class="card-block">
+									<div class="card" style="width: 20rem;">
+										<img class="card-img-top" src="{{url('public/img/1.png')}}" alt="Card image cap">
+										<div class="card-block">
+											<h4 class="card-title">Card title</h4>
+											<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+											<a href="#" class="btn btn-primary">Go somewhere</a>
 										</div>
 									</div>
-
 								</div>
 							</div>
 						</div>
-
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-13650" href="#panel-element-293840">Temp</a>
+						<div class="card">
+							<div class="card-header" role="tab" id="headingTwo">
+								<h5 class="mb-0">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Đơn Hàng
+									</a>
+								</h5>
 							</div>
-							<div id="panel-element-293840" class="panel-collapse collapse">
-								<div class="panel-body">
-									Temp
+							<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="card-block">
+									None
 								</div>
 							</div>
 						</div>
@@ -194,5 +173,6 @@
 			</div>
 		</div>
 	</div>
+	<br>
 </div>
 @endsection()

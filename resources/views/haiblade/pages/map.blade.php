@@ -1,60 +1,33 @@
 @extends('haiblade.master')
 @section('content')
 <div class="container-fluid">
-	<div class="row card">
-		<div class="card-block">
-			<div class="col-md-12">
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="dropdown">
-							<input type="button" name="cate" value="Book" class="dropdown-toggle btn btn-success" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Sách</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Quần áo</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Máy tính</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Điện thoại</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="dropdown">
-							<input type="button" name="cate" value="Stock" class="dropdown-toggle btn btn-warning" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Kho hàng</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Đơn hàng</a>
-								</li>
-							</ul>
-						</li>
-
-						<li class="dropdown">
-							<input type="button" name="cate" value="New" class="dropdown-toggle btn btn-danger" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Mới</a>
-								</li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">Cũ</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="nav justify-content-center">
+				<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mặt Hàng</a>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Sách</a>
+      <a class="dropdown-item" href="#">Quần Áo</a>
+      <a class="dropdown-item" href="#">Máy tính</a>
+      <a class="dropdown-item" href="#">Điện thoại</a>
+    </div>
+  </li>
+				<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nơi Tìm</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Kho Hàng</a>
+      <a class="dropdown-item" href="#">Đơn Hàng</a>
+    </div>
+  </li>
+				<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tình Trạng</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Mới</a>
+      <a class="dropdown-item" href="#">Cũ</a>
+    </div>
+  </li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -71,6 +44,7 @@
 	</div>
 	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 </div>
+
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 
 <script type='text/javascript'>

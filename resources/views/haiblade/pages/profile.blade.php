@@ -3,9 +3,8 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-
+		<br>
 			<div class="row">
-
 				<div class="col-md-4">
 					<div class="card">
 						<div class="card-block">
@@ -164,12 +163,14 @@
 							</div>
 						</div>
 					</div>
-
+					<br>
 					<div class="">
-						<div class="list-group text-center">
-							<a href="#" class="list-group-item active">List Group Item</a>
-							<a href="#" class="list-group-item">Để tạm khi cần sẽ dùng</a>
-						</div>
+						<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Đánh Giá
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">Nháp</a>
+</div>
 					</div>
 				</div>
 
@@ -276,6 +277,7 @@
 
 				</div>
 			</div>
+		<br>
 		</div>
 	</div>
 </div>
