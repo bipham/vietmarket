@@ -1,16 +1,13 @@
 @extends('haiblade.master')
 @section('content')
 <div class="container-fluid">
-
 	<div class="row card">
 		<div class="card-block">
-			
-			
 			<div class="col-md-12">
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li class="dropdown">
-							<input type="button" name="cate" value="Book" class="dropdown-toggle btn btn-success " data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
+							<input type="button" name="cate" value="Book" class="dropdown-toggle btn btn-success" data-toggle="dropdown"> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"> </span>
 							<ul class="dropdown-menu">
 								<li>
 									<a href="#">Sách</a>
@@ -55,11 +52,6 @@
 								</li>
 							</ul>
 						</li>
-
-						<li class="dropdown">
-							<input type="button" name="cate" value="Submit" class="dropdown-toggle btn btn-primary" data-toggle="dropdown">
-						</li>
-
 					</ul>
 				</div>
 			</div>

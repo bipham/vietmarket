@@ -1,24 +1,25 @@
 @extends('haiblade.master')
 @section('content')
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="breadcrumb">
-					<li>
-						<a href="#">Giỏ hàng</a> <span class="divider">/</span>
-					</li>
-					<li>
-						<a href="#">Kho hàng</a> <span class="divider">/</span>
-					</li>
-					<li class="active">
-						Đăng Vật Phẩm
-					</li>
-				</ul>
-			</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="#">Giỏ hàng</a>
+				</li>
+				<li  class="breadcrumb-item">
+					<a href="#">Kho hàng</a>
+				</li>
+				<li class="breadcrumb-item active">
+					Đăng Vật Phẩm
+				</li>
+			</ul>
 		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<div class="well">
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="card">
+				<div class="card-block">
 					<h3 class="text-left">
 						Thông Tin Vật Phẩm
 					</h3>
@@ -52,10 +53,9 @@
 							</label>
 							<input type="text" name="address" class="form-control" placeholder="Địa Chỉ" required>
 						</div>
-
 						<hr>
-
-						<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6">
 							<div class="form-group">
 								<label>
 									Chọn Danh mục *
@@ -99,37 +99,33 @@
 								</select>
 							</div>
 						</div>
+						</div>
+						
 						<br>
-
 						<div class="form-group">
-
 							<label>
-								Đăng Hình Ảnh
+								Đăng Hình Ảnh (Tối Đa 5 Hình)
 							</label>
+							<br>
 							<input type="file" name="image">
-							<input type="file" name="image">
-							<input type="file" name="image">
-							<p class="help-block">
-								Đăng Tối Đa 5 Hình
-							</p>
 						</div>
 						<hr>
 						<div class="checkbox">
-
 							<label>
 								<input type="checkbox" required> Tôi đã đọc các điều lệ
 							</label>
 						</div> 
-						
+
 						<button type="submit" class="btn btn-block btn-pf">
 							Gửi
 						</button>
 					</form>
-					
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="well">
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<div class="card-block">
 					<h3 class="text-left">
 						Matching
 					</h3>
@@ -141,7 +137,7 @@
 							</div>
 							<div id="panel-element-368994" class="panel-collapse collapse">
 								<div class="panel-body">
-									
+
 									<div class="row">
 										<div class="col-sm-6">
 											<div class="thumbnail">
@@ -198,4 +194,5 @@
 			</div>
 		</div>
 	</div>
+</div>
 @endsection()
