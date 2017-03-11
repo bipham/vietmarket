@@ -22,4 +22,9 @@ class HomeController extends Controller
     {
         return view('pages.listOrder');
     }
+
+    public function upload()
+    {
+        return view('client.upload');
+    }
 }
