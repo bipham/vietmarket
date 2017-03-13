@@ -28,10 +28,10 @@
       </ul>
       <ul class="navbar-nav my-2 my-lg-0">
         <li class="nav-item sign-out">
-          <a class="nav-link" href="#">Đăng nhập</a>
+          <a class="nav-link" href="login">Đăng nhập</a>
         </li>
         <li class="nav-item sign-in">
-          <a class="nav-link" href="#">Đăng xuất</a>
+          <a class="nav-link" href="logout">Đăng xuất</a>
         </li>
       </ul>
     </div>

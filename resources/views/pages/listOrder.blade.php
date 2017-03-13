@@ -46,6 +46,13 @@ Date: 21/02/2017
 					<div class="card card-block" id="productRate">
 						@include('utils.rate')
 					</div>
+					<div class="card card-block">
+						<form action="" method="">
+							<textarea class="form-control" name="comment" rows="5" cols="50" style="resize: none;">
+							</textarea>
+							<input type="submit" name="" value="Nhận xét"/>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-12">
