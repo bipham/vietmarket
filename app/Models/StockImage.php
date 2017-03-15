@@ -12,6 +12,6 @@ class StockImage extends Model
     public $timestamps = false;
 
     public function stock() {
-    	return $this->belongTo('App\Models\Stock')
+    	return $this->belongTo('App\Models\Stock');
     }
 }

@@ -9,13 +9,13 @@ class Cate extends Model
 
     protected $fillable = ['name', 'alias', 'order', 'parent_id'];
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     public function stock() {
-    	return $this->hasMany('App\Models\Stock')
+    	return $this->hasMany('App\Models\Stock');
     }
 
     public function order() {
-    	return $this->hasMany('App\Models\Order')
+    	return $this->hasMany('App\Models\Order');
     }
 }

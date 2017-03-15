@@ -9,7 +9,9 @@ use App\Models\Cate;
 
 class CateController extends Controller
 {
-    //
+    public function getList () {
+    	return view('admin.cate.list');
+    }
     public function getAdd () {
     	return view('admin.cate.add');
     }
@@ -21,6 +23,7 @@ class CateController extends Controller
     	$cate->order = $request->txtOrder;
     	$cate->parent_id = 1;
     	$cate->save();
+    	return redirect()->route('admin.cate.list')->with(['flash_level'=>'success','flash_mesage'=>'Thành công thêm Category']);
     }
 
 }

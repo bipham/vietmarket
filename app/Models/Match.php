@@ -9,7 +9,7 @@ class Match extends Model
 
     protected $fillable = ['stock_id', 'order_id'];
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     public function stock() {
     	return $this->belongToMany('App\Models\Stock', 'stock_id', 'id');

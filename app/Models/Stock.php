@@ -9,7 +9,7 @@ class Stock extends Model
 
     protected $fillable = ['name', 'price', 'status', 'description', 'place', 'img', 'user_id', 'cate_id'];
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     public function user() {
     	return $this->belongTo('App\Models\User');

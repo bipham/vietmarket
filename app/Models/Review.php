@@ -9,7 +9,7 @@ class Review extends Model
 
     protected $fillable = ['rating_user_id', 'rated_user_id', 'rating', 'comment'];
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     public function ratedUser() {
     	return $this->belongToMany('App\Models\User', 'rated_user_id', 'id');

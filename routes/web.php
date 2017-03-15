@@ -38,6 +38,7 @@ Route::get('test',function() {
 
 Route::group(['prefix'=>'admin'],function () {
 	Route::group(['prefix'=>'cate'],function () {
+		Route::get('list',['as'=>'admin.cate.list', 'uses'=>'Admin\CateController@getList']);
 		Route::get('add',['as'=>'admin.cate.getAdd','uses'=>'Admin\CateController@getAdd']);
 		Route::post('add',['as'=>'admin.cate.postAdd','uses'=>'Admin\CateController@postAdd']);
 	});

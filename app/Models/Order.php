@@ -9,7 +9,7 @@ class Order extends Model
 
     protected $fillable = ['name', 'priceMax', 'priceMin', 'status', 'description', 'place', 'img', 'user_id', 'cate_id', 'finished'];
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     public function user() {
     	return $this->belongTo('App\Models\User');

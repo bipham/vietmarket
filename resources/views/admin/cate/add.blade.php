@@ -1,8 +1,9 @@
 @extends('admin.master')
+@section('controller')Category
+@endsection()
+@section('action')Thêm
+@endsection()
 @section('content')
-<div class="col-lg-12 col-sm-12">
-    <h1>Category <small>Thêm</small></h1>
-</div>
 <div class="col-lg-7 col-sm-12" style="padding-bottom:120px">
     @if (count($errors) > 0)
         <div class="alert alert-danger">
