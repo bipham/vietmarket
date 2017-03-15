@@ -11,23 +11,34 @@
 |
 */
 
-Route::get('', 'Cus\HomeController@index');
+Route::get('','Cus\HomeController@index');
 
-Route::get('logout', 'Cus\HomeController@getLogout');
-
-
-Route::get('login', 'Auth\AuthController@getLogin');
-Route::post('login', 'Auth\AuthController@authLogin');
+Route::get('logout','Cus\HomeController@getLogout');
 
 
-Route::get('homepage', ['as'=>'Home', 'uses'=>'Client\HomeController@showHome']);
+Route::get('login','Auth\AuthController@getLogin');
+Route::post('login','Auth\AuthController@authLogin');
 
-Route::get('mystore', ['as'=>'MyStore', 'uses'=>'Client\HomeController@showMyStore']);
 
-Route::get('listorder', ['as'=>'OrderDetail', 'uses'=>'Client\HomeController@showOrderDetail']);
+Route::get('homepage',['as'=>'Home','uses'=>'Client\HomeController@showHome']);
 
-Route::get('profile', ['as'=>'Profile', 'uses'=>'Client\HomeController@showProfile']);
+Route::get('mystore',['as'=>'MyStore','uses'=>'Client\HomeController@showMyStore']);
 
-Route::get('upload', ['as'=>'Upload', 'uses'=>'Client\HomeController@showUpload']);
+Route::get('listorder',['as'=>'OrderDetail','uses'=>'Client\HomeController@showOrderDetail']);
 
-Route::get('map', ['as'=>'Map', 'uses'=>'Client\HomeController@showMap']);
+Route::get('profile',['as'=>'Profile','uses'=>'Client\HomeController@showProfile']);
+
+Route::get('upload',['as'=>'Upload','uses'=>'Client\HomeController@showUpload']);
+
+Route::get('map',['as'=>'Map','uses'=>'Client\HomeController@showMap']);
+
+Route::get('test',function() {
+	return view('admin.cate.add');
+});
+
+Route::group(['prefix'=>'admin'],function () {
+	Route::group(['prefix'=>'cate'],function () {
+		Route::get('add',['as'=>'admin.cate.getAdd','uses'=>'Admin\CateController@getAdd']);
+		Route::post('add',['as'=>'admin.cate.postAdd','uses'=>'Admin\CateController@postAdd']);
+	});
+});

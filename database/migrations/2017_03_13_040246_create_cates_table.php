@@ -19,6 +19,8 @@ class CreateCatesTable extends Migration
             $table->increments('id');
             $table->string('name')->unique();
             $table->string('alias');
+            $table->integer('order');
+            $table->integer('parent_id')->unsigned();
             $table->timestamps();
         });
     }
